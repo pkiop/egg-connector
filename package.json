@@ -1,4 +1,5 @@
 {
+  "homepage": "https://pkiop.github.io/egg-connector",
   "name": "app",
   "private": true,
   "version": "0.0.0",
@@ -7,6 +8,7 @@
     "dev": "vite --host 0.0.0.0",
     "build": "vite build",
     "lint": "eslint .",
+    "deploy": "gh-pages -d dist",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -22,6 +24,7 @@
     "eslint-plugin-react": "^7.37.2",
     "eslint-plugin-react-hooks": "^5.0.0",
     "eslint-plugin-react-refresh": "^0.4.16",
+    "gh-pages": "^6.3.0",
     "globals": "^15.14.0",
     "vite": "^6.0.5"
   }
