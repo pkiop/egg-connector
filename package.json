@@ -1,5 +1,5 @@
 {
-  "homepage": "https://pkiop.github.io/egg-connector",
+  "homepage": "https://pkiop.github.io/egg-connector/",
   "name": "app",
   "private": true,
   "version": "0.0.0",
@@ -8,6 +8,7 @@
     "dev": "vite --host 0.0.0.0",
     "build": "vite build",
     "lint": "eslint .",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "preview": "vite preview"
   },
